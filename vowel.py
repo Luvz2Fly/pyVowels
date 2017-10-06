@@ -1,9 +1,10 @@
 vowels = ['a', 'e', 'i', 'o', 'u']
-word = "New Word Version 2"
+word = input("Please provide a word with vowels! ")
 found = []
 for letter in word:
     if letter in vowels:
         if letter not in found:
                 found.append(letter)
 for vowel in found:
-    print(vowel)
+    print(vowels)
+    
