@@ -7,5 +7,6 @@ for letter in word:
                 found.append(letter)
 for vowel in found:
     print(vowels)
-    print()
+    print() #Test
 print("PyCharm")
+print("PyCharm and Git")
