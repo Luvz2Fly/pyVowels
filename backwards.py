@@ -2,5 +2,10 @@
 
 data = input("Type something here and I will print it backwards: ")
 backwards = list(data)
-backout = ''.join(backwards[::-1])
-print(backout)
+backwardsOutput = ''.join(backwards[::-1])
+print(backwardsOutput)
+
+# Slim it down...
+data = input("Type something here and I will print it backwards: ")
+print(''.join(list(data)[::-1]))
+
